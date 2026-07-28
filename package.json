@@ -1,0 +1,17 @@
+{
+  "name": "thats-my-best-engineering-case-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A sanitized reference model for a human-confirmed multimodal social quiz system.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/reference-model.mjs && node --test"
+  },
+  "author": "Alex Bouchard",
+  "license": "MIT"
+}
+

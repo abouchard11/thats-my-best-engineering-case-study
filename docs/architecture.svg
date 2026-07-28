@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">That's My Best sanitized architecture</title>
+  <desc id="desc">A six-stage flow from screenshot upload through model proposals, creator confirmation, sealed quiz state, per-question reveal, and group result.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#09090d"/>
+      <stop offset="1" stop-color="#14131c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#bafd35"/>
+      <stop offset="1" stop-color="#ff3f8f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#807f91"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+  <text x="70" y="78" fill="#f7f7f4" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">Human-confirmed multimodal quiz system</text>
+  <text x="70" y="118" fill="#9b9aa7" font-family="Inter,Arial,sans-serif" font-size="20">The model proposes. The creator establishes truth. The server controls reveal.</text>
+
+  <g stroke="#807f91" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M330 245 H430"/>
+    <path d="M770 245 H870"/>
+    <path d="M1030 330 V420"/>
+    <path d="M870 505 H770"/>
+    <path d="M430 505 H330"/>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Inter,Arial,sans-serif">
+    <g>
+      <rect x="70" y="165" width="260" height="160" rx="18" fill="#15151c" stroke="#30303a"/>
+      <text x="95" y="205" fill="#bafd35" font-size="16" font-weight="700">01 · VISUAL INPUT</text>
+      <text x="95" y="246" fill="#f7f7f4" font-size="24" font-weight="700">Grid screenshots</text>
+      <text x="95" y="280" fill="#a8a7b3" font-size="17">Deterministic slicing</text>
+      <text x="95" y="304" fill="#a8a7b3" font-size="17">and indexed tiles</text>
+    </g>
+    <g>
+      <rect x="430" y="165" width="340" height="160" rx="18" fill="#15151c" stroke="#30303a"/>
+      <text x="455" y="205" fill="#ff3f8f" font-size="16" font-weight="700">02 · MODEL PROPOSAL</text>
+      <text x="455" y="246" fill="#f7f7f4" font-size="24" font-weight="700">Questions + reactions</text>
+      <text x="455" y="280" fill="#a8a7b3" font-size="17">Useful candidate output,</text>
+      <text x="455" y="304" fill="#a8a7b3" font-size="17">not canonical truth</text>
+    </g>
+    <g>
+      <rect x="870" y="165" width="260" height="160" rx="18" fill="#191924" stroke="url(#accent)" stroke-width="3"/>
+      <text x="895" y="205" fill="#bafd35" font-size="16" font-weight="700">03 · HUMAN GATE</text>
+      <text x="895" y="246" fill="#f7f7f4" font-size="24" font-weight="700">Creator confirms</text>
+      <text x="895" y="280" fill="#a8a7b3" font-size="17">Corrects answer key</text>
+      <text x="895" y="304" fill="#a8a7b3" font-size="17">and triggers rewrites</text>
+    </g>
+    <g>
+      <rect x="870" y="425" width="260" height="160" rx="18" fill="#15151c" stroke="#30303a"/>
+      <text x="895" y="465" fill="#7ea7ff" font-size="16" font-weight="700">04 · SEALED STATE</text>
+      <text x="895" y="506" fill="#f7f7f4" font-size="24" font-weight="700">Public payload</text>
+      <text x="895" y="540" fill="#a8a7b3" font-size="17">Questions and choices;</text>
+      <text x="895" y="564" fill="#a8a7b3" font-size="17">answers stay server-side</text>
+    </g>
+    <g>
+      <rect x="430" y="425" width="340" height="160" rx="18" fill="#15151c" stroke="#30303a"/>
+      <text x="455" y="465" fill="#7ea7ff" font-size="16" font-weight="700">05 · PER-QUESTION REVEAL</text>
+      <text x="455" y="506" fill="#f7f7f4" font-size="24" font-weight="700">Pick, then answer</text>
+      <text x="455" y="540" fill="#a8a7b3" font-size="17">Valid submission unlocks</text>
+      <text x="455" y="564" fill="#a8a7b3" font-size="17">only the current reveal</text>
+    </g>
+    <g>
+      <rect x="70" y="425" width="260" height="160" rx="18" fill="#15151c" stroke="#30303a"/>
+      <text x="95" y="465" fill="#bafd35" font-size="16" font-weight="700">06 · SOCIAL RESULT</text>
+      <text x="95" y="506" fill="#f7f7f4" font-size="24" font-weight="700">Group ranking</text>
+      <text x="95" y="540" fill="#a8a7b3" font-size="17">All named players</text>
+      <text x="95" y="564" fill="#a8a7b3" font-size="17">or fixed timeout</text>
+    </g>
+  </g>
+
+  <rect x="70" y="628" width="1060" height="2" fill="url(#accent)"/>
+  <text x="70" y="667" fill="#8f8e9d" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16">SANITIZED REFERENCE MODEL · ALEX BOUCHARD · 2026</text>
+</svg>
+
