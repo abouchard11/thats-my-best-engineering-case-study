@@ -1,5 +1,7 @@
 # That's My Best: Human-Confirmed Multimodal Quiz System
 
+[![CI](https://github.com/abouchard11/thats-my-best-engineering-case-study/actions/workflows/ci.yml/badge.svg)](https://github.com/abouchard11/thats-my-best-engineering-case-study/actions/workflows/ci.yml)
+
 **Screenshots in. A playable social memory test out.**
 
 [Live product](https://thatsmybest.com/) ·
