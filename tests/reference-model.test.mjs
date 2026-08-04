@@ -84,7 +84,7 @@ test("an invalid pick cannot probe the answer endpoint", () => {
   );
 });
 
-test("creator correction replaces the model proposal and queues a focused rewrite", () => {
+test("an optional creator correction replaces the model proposal and queues a focused rewrite", () => {
   const corrected = applyCreatorCorrections(sampleDraft(), [
     { questionId: "q1", correctChoiceId: "c" },
   ]);

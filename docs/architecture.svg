@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
   <title id="title">That's My Best sanitized architecture</title>
-  <desc id="desc">A six-stage flow from screenshot upload through model proposals, creator confirmation, sealed quiz state, per-question reveal, and group result.</desc>
+  <desc id="desc">A six-stage flow from screenshot upload through model proposals, a model-proposed answer key with optional paid creator override, sealed quiz state, per-question reveal, and group result.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1">
       <stop offset="0" stop-color="#09090d"/>
@@ -18,8 +18,8 @@
     </marker>
   </defs>
   <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
-  <text x="70" y="78" fill="#f7f7f4" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">Human-confirmed multimodal quiz system</text>
-  <text x="70" y="118" fill="#9b9aa7" font-family="Inter,Arial,sans-serif" font-size="20">The model proposes. The creator establishes truth. The server controls reveal.</text>
+  <text x="70" y="78" fill="#f7f7f4" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">Model-proposed answer keys, bounded by invariants</text>
+  <text x="70" y="118" fill="#9b9aa7" font-family="Inter,Arial,sans-serif" font-size="20">The model proposes and, by default, its guess is sealed. The server controls what that reaches.</text>
 
   <g stroke="#807f91" stroke-width="3" fill="none" marker-end="url(#arrow)">
     <path d="M330 245 H430"/>
@@ -41,15 +41,15 @@
       <rect x="430" y="165" width="340" height="160" rx="18" fill="#15151c" stroke="#30303a"/>
       <text x="455" y="205" fill="#ff3f8f" font-size="16" font-weight="700">02 · MODEL PROPOSAL</text>
       <text x="455" y="246" fill="#f7f7f4" font-size="24" font-weight="700">Questions + reactions</text>
-      <text x="455" y="280" fill="#a8a7b3" font-size="17">Useful candidate output,</text>
-      <text x="455" y="304" fill="#a8a7b3" font-size="17">not canonical truth</text>
+      <text x="455" y="280" fill="#a8a7b3" font-size="17">Plus its own guess at</text>
+      <text x="455" y="304" fill="#a8a7b3" font-size="17">the correct choice</text>
     </g>
     <g>
       <rect x="870" y="165" width="260" height="160" rx="18" fill="#191924" stroke="url(#accent)" stroke-width="3"/>
-      <text x="895" y="205" fill="#bafd35" font-size="16" font-weight="700">03 · HUMAN GATE</text>
-      <text x="895" y="246" fill="#f7f7f4" font-size="24" font-weight="700">Creator confirms</text>
-      <text x="895" y="280" fill="#a8a7b3" font-size="17">Corrects answer key</text>
-      <text x="895" y="304" fill="#a8a7b3" font-size="17">and triggers rewrites</text>
+      <text x="895" y="205" fill="#bafd35" font-size="16" font-weight="700">03 · ANSWER KEY</text>
+      <text x="895" y="246" fill="#f7f7f4" font-size="24" font-weight="700">Model's guess</text>
+      <text x="895" y="280" fill="#a8a7b3" font-size="17">Creator override is</text>
+      <text x="895" y="304" fill="#a8a7b3" font-size="17">a paid, optional step</text>
     </g>
     <g>
       <rect x="870" y="425" width="260" height="160" rx="18" fill="#15151c" stroke="#30303a"/>
