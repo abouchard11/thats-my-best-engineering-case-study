@@ -6,7 +6,8 @@
 
 [Live product](https://thatsmybest.com/) ·
 [iPhone app](https://apps.apple.com/us/app/thats-my-best-ai-friend-quiz/id6788340469) ·
-[Engineering workfolio](https://midnightdev.dev/work/thatsmybest)
+[Engineering workfolio](https://midnightdev.dev/build-room) ·
+[Product case study](https://midnightdev.dev/work/thatsmybest)
 
 > **Generate boldly. Validate cheaply. Kill ruthlessly. Scale what survives.**
 
