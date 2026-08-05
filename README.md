@@ -20,8 +20,9 @@ That's My Best turns one to four social-grid screenshots into a five-question
 friend quiz. A multimodal model proposes visual evidence, questions, choices,
 and character reactions — and on the free default path its own guess becomes
 the answer key at seal time. The creator sees the proposals at a glance and
-sends. Per-question correction tools ship as a paid upgrade ("Pick Your Own",
-$4.99), not as a required step.
+sends. Per-question correction tools ship as a paid upgrade ("Pick Your Own" —
+$4.99 on the web creation screen, $2.99 as the iOS in-app purchase), not as a
+required step.
 
 That makes the defining design problem the one worth writing down:
 
@@ -94,8 +95,8 @@ Verified on **2026-08-04** against the production source.
   copy on that screen says so directly: a mismatch between question and photo is
   "Yapoleon guessing wrong — not a glitch," and correction is what the upgrade
   buys.
-- Per-question correction tools are a $4.99 in-app purchase, priced on the
-  creation screen.
+- Per-question correction tools are a paid upgrade: $4.99 on the web creation
+  screen, $2.99 as the iOS in-app purchase.
 - Early soft-launch generation cost measured roughly **6–7¢ per completed
   quiz**. That is a cost observation, not a traction claim.
 

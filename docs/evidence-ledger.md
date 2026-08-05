@@ -10,7 +10,7 @@ Checked on **2026-08-04**.
 | The product generates five visually grounded questions | App Store product description | The model also proposes the answer to each one |
 | A creator can name one to three friends | Public website and App Store description | Web links keep participation install-free |
 | The default creation path seals the model's proposed answer key | Production creation flow; its seal-time analytics name the two modes `trust_his_guesses` (default) and `pick_your_own` | No per-question confirmation step exists on the free path |
-| Per-question correction is a paid capability | "Pick Your Own" upgrade priced at $4.99 on the creation screen | Optional; publishing never requires it |
+| Per-question correction is a paid capability | "Pick Your Own" upgrade priced at $4.99 on the web creation screen and $2.99 as the iOS in-app purchase | Optional; publishing never requires it |
 | A corrected key triggers a rewrite of the affected lines | Production patch call fires when the sealed key differs from the model's guess | Keeps reactions from contradicting a changed truth |
 | Generation cost was roughly 6–7¢ per completed quiz | Internal soft-launch measurement | Not a scale claim and not organic traction |
 
