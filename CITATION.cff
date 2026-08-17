@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the report below."
+title: "thats-my-best-engineering-case-study"
+abstract: >-
+  A sanitized engineering case study of a multimodal quiz system whose answer key is
+  model-proposed by default, with machine-checkable invariants bounding what a wrong
+  guess can reach.
+authors:
+  - family-names: "Bouchard"
+    given-names: "Alex"
+    email: "alex@midnightdev.dev"
+    affiliation: "MidnightDev"
+    website: "https://midnightdev.dev"
+repository-code: "https://github.com/abouchard11/thats-my-best-engineering-case-study"
+url: "https://github.com/abouchard11/thats-my-best-engineering-case-study"
+license: MIT
+version: 1.0.0
+date-released: 2026-08-05
+keywords:
+  - "llm"
+  - "evaluation"
+  - "invariants"
+  - "case-study"
+  - "multimodal"
+preferred-citation:
+  type: report
+  title: "Model-Proposed Answer Keys with Machine-Checkable Invariants: An Engineering Case Study"
+  authors:
+    - family-names: "Bouchard"
+      given-names: "Alex"
+      email: "alex@midnightdev.dev"
+      affiliation: "MidnightDev"
+      website: "https://midnightdev.dev"
+  institution:
+    name: "MidnightDev"
+  year: 2026
+  month: 8
+  url: "https://github.com/abouchard11/thats-my-best-engineering-case-study"
+  license: MIT
