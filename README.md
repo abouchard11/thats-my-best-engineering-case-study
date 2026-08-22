@@ -141,3 +141,7 @@ for truth.
 
 Designed and authored by **Alex Bouchard**, solo founder and applied AI product
 engineer in Houston, Texas.
+
+## Rights
+
+**Proprietary — all rights reserved. No license is granted.** See [LICENSE](LICENSE).
