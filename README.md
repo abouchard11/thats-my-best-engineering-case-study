@@ -144,4 +144,4 @@ engineer in Houston, Texas.
 
 ## Rights
 
-**Proprietary — all rights reserved. No license is granted.** See [LICENSE](LICENSE).
+**Creative Commons Attribution 4.0 International (CC BY 4.0).** See [LICENSE](LICENSE). The code samples in this repository may additionally be used under the Apache License 2.0.
