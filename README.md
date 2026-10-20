@@ -1,6 +1,7 @@
 # That's My Best: Model-Proposed Answer Keys Under Machine-Checkable Invariants
 
 [![CI](https://github.com/abouchard11/thats-my-best-engineering-case-study/actions/workflows/ci.yml/badge.svg)](https://github.com/abouchard11/thats-my-best-engineering-case-study/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23503118.svg)](https://doi.org/10.5281/zenodo.23503118)
 
 **Screenshots in. A playable social memory test out.**
 
